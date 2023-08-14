@@ -1,0 +1,9 @@
+.countrywithlowpopulation{
+  border:2px solid blue 
+  /* background-color: black; */
+}
+
+.countrywithhighpopulation{
+     border:2px solid red 
+    /* background-color: yellow; */
+  }

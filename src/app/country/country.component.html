@@ -1,0 +1,12 @@
+<div 
+  class="card mb-3 mt-3"
+  [ngClass]="{' countrywithlowpopulation':population > 10000000,' countrywithhighpopulation':population <10000000}"
+  style="width: 13rem;">
+  <img [src]='imgsrc' class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <p class="card-text">{{description}}</p>
+    <!-- <input type="text" [(ngModel)]="description"> -->
+    <a  href="#" class="btn btn-primary" (click)="showpopulation()">show population</a>
+  </div>
+</div> 

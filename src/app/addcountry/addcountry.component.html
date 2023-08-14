@@ -1,0 +1,27 @@
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+            <div class="mb-3">
+                <h2 class="text-primary">Country Information</h2>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input [(ngModel)]='CountryToBeAdded.name' class="form-control" id="name" placeholder="Enter Country Name">
+              </div>
+              <div class="mb-3">
+                <label for="Population" class="form-label">Population</label>
+                <input [(ngModel)]='CountryToBeAdded.population' class="form-control" id="Population" placeholder="Enter Population">
+              </div>
+              <div class="mb-3">
+                <label for="imgsrc" class="form-label">image source</label>
+                <input [(ngModel)]='CountryToBeAdded.imgsrc' class="form-control" id="imgsrc" placeholder="Enter Image Source">
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primary form-control" (click)="SaveCountry()">Submit</button>
+              </div>
+        </div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+    </div>
+</div>

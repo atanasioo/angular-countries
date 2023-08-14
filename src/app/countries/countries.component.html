@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-2 d-flex" *ngFor="let c of Countries">
+        <country 
+        [title]="c.name" 
+        [description]="c.desc" 
+        [imgsrc]="c.imgsrc"
+        [population]="c.population">
+        </country>
+    </div>
+
+</div>
